@@ -1,13 +1,15 @@
+import axios from "axios";
 import { BrowserRouter, NavLink, Route, Switch} from "react-router-dom";
 import Home from "./Home";
 import Register from "./Register";
 import Login from "./Login";
+
 import PremiumContent from "./PremiumContent";
 import PublicRoute from "./routes/PublicRoute";
 import PrivateRoute from "./routes/PrivateRoute";
+
 import React, { useState, useEffect } from "react";
 import { getUser, getToken, setUserSession, resetUserSession } from "./service/AuthService";
-import axios from "axios";
 
 const verifyTokenAPIURL = 'https://ujat2b7m3a.execute-api.ap-south-1.amazonaws.com/me/verify';
 

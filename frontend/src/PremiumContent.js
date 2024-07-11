@@ -1,6 +1,7 @@
 import React from 'react';
 import { getUser, resetUserSession } from './service/AuthService';
 
+import './index.css';
 const PremiumContent = (props) => {
   const user = getUser();
   const name = user !== 'undefined' && user ? user.name : '';

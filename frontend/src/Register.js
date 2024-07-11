@@ -43,11 +43,39 @@ const Register = () => {
     <div>
       <form onSubmit={submitHandler}>
         <h5>Register</h5>
-        name: <input type="text" value={name} onChange={event => setName(event.target.value)} /> <br/>
-        email: <input type="text" value={email} onChange={event => setEmail(event.target.value)} /> <br/>
-        username: <input type="text" value={username} onChange={event => setUsername(event.target.value)} /> <br/>
-        password: <input type="text" value={password} onChange={event => setPassword(event.target.value)} /> <br/>
-        <input type="submit" value="Register" />
+        <label htmlFor="name" className="form-label">Name:</label>
+        <input
+          id="name"
+          type="text"
+          value={name}
+          onChange={event => setName(event.target.value)}
+          className="form-input"
+        /> <br/>
+        <label htmlFor="email" className="form-label">Email:</label>
+        <input
+          id="email"
+          type="text"
+          value={email}
+          onChange={event => setEmail(event.target.value)}
+          className="form-input"
+        /> <br/>
+        <label htmlFor="username" className="form-label">Username:</label>
+        <input
+          id="username"
+          type="text"
+          value={username}
+          onChange={event => setUsername(event.target.value)}
+          className="form-input"
+        /> <br/>
+        <label htmlFor="password" className="form-label">Password:</label>
+        <input
+          id="password"
+          type="text"
+          value={password}
+          onChange={event => setPassword(event.target.value)}
+          className="form-input"
+        /> <br/>
+        <input type="submit" value="Register" className="form-submit" />
       </form>
       {message && <p className="message">{message}</p>}
     </div>
