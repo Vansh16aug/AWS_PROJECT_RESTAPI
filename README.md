@@ -29,7 +29,10 @@ AWS_PROJECT_RESTAPI/
 └── README.md
 
 
-![Lambda]()
+![Lambda](/frontend/public/images/1.png)
+![Dynamodb](/frontend/public/images/2.png)
+![Api Gateway](/frontend/public/images/3.png)
+![S3](/frontend/public/images/4.png)
 
 ## Links
 - Live Frontend: [vansh-login-frontend](http://vansh-login-frontend.s3-website.ap-south-1.amazonaws.com/)
