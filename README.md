@@ -6,33 +6,13 @@ This project utilizes AWS services to implement a RESTful API for user authentic
 
 This repository contains the code for a RESTful API built on AWS services:
 - **Lambda Functions**: Backend logic is executed using serverless Lambda functions.
-- **API Gateway**: Provides scalable API endpoints to access Lambda functions securely.
-- **S3**: Hosts the frontend as a static website, serving HTML, CSS, and JavaScript files.
-- **DynamoDB**: Stores user data securely in a NoSQL database for scalability and performance.
-
-AWS_PROJECT_RESTAPI/
-│
-├── lambda_functions/
-│   ├── authentication_lambda/
-│   │   ├── index.js
-│   │   └── package.json
-│   │
-│   └── data_handling_lambda/
-│       ├── index.js
-│       └── package.json
-│
-├── frontend/
-│   ├── index.html
-│   ├── styles.css
-│   └── script.js
-│
-└── README.md
-
-
 ![Lambda](/frontend/public/images/1.png)
-![Dynamodb](/frontend/public/images/2.png)
+- **API Gateway**: Provides scalable API endpoints to access Lambda functions securely.
 ![Api Gateway](/frontend/public/images/3.png)
+- **S3**: Hosts the frontend as a static website, serving HTML, CSS, and JavaScript files.
 ![S3](/frontend/public/images/4.png)
+- **DynamoDB**: Stores user data securely in a NoSQL database for scalability and performance.
+![Dynamodb](/frontend/public/images/2.png)
 
 ## Links
 - Live Frontend: [vansh-login-frontend](http://vansh-login-frontend.s3-website.ap-south-1.amazonaws.com/)
