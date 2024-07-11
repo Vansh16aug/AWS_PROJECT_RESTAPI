@@ -1,0 +1,9 @@
+{
+    "name": "register-login-system-backend",
+    "author": "vansh",
+    "version": "1.0.0",
+    "dependencies": {
+      "bcryptjs": "2.4.3",
+      "jsonwebtoken": "9.0.2"
+    }
+  }
